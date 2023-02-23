@@ -32,7 +32,6 @@ public class BaseTest {
 
     protected void quitDriver() {
         Logger.info("Tearing Down WebDriver.");
-        driver.close();
         driver.quit();
     }
 
